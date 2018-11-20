@@ -1,0 +1,113 @@
+void main() {
+    
+    //geh zum Rand
+   	while(vornFrei()){
+   		vor();
+    }
+    
+    //dreh dich nach links
+    linksUm();
+    
+    //geh nach vorne
+   	while(vornFrei()){
+   		vor();
+   	}
+   	
+    //dreh dich nach links
+    linksUm();
+    
+    //geh zwei nach vorne
+    vor();
+    vor();
+    
+    //dreh dich nach links
+    linksUm();
+    
+    //geh nach vorne und nimm Körner
+    while(vornFrei()){
+    	vor();
+    	while(kornDa()){
+    		nimm();
+    	}
+   		
+   	}
+   	
+   	//in die Ecken und ein Korn droppen
+   	while(vornFrei()){
+   		vor();
+   	}
+   	
+   		linksUm();
+   			vor();
+   			vor();
+   				gib();
+   	
+   	//andere Ecke aufsuchen
+   	linksUm();
+   	
+   		while(vornFrei()){
+   			vor();
+   	}
+   	
+   		linksUm();
+   	
+   			gib();
+   	
+   	//naechste Ecke
+   	while(vornFrei()){
+   		vor();
+   	}
+   	
+   		linksUm();
+   			
+   			gib();
+   	
+   	//letzte Ecke und zurueck zum Start
+   	while(vornFrei()){
+   		vor();
+   	}
+   	
+   		linksUm();
+   		linksUm();
+   		
+   			gib();
+   	
+   	//zum Start
+   	vor();
+   	
+   	linksUm();
+   	linksUm();
+   	linksUm();
+   	
+   	vor();
+   	vor();
+   	
+   	
+   	//neue Körner legen
+   	while(vornFrei()){
+   		vor();
+   	}
+   	
+   		linksUm();
+   	
+   	while(vornFrei()){
+   		vor();
+   			if(kornDa()){
+   				nimm();
+   		}
+   	}
+   	
+   			linksUm();
+   	
+   	
+   	while(vornFrei)){
+   		vor();
+   			if(kornDa()){
+   				nimm();
+   		}
+   	}
+   		linksUm();
+   	
+   	//fertig
+   	
+}
