@@ -75,12 +75,12 @@ void main() {
    	//zum Start
    	vor();
    	
-   	linksUm();
-   	linksUm();
-   	linksUm();
+   			linksUm();
+   				linksUm();
+  		 	linksUm();
    	
-   	vor();
-   	vor();
+   			vor();
+   		vor();
    	
    	
    	//neue Körner legen
@@ -100,13 +100,66 @@ void main() {
    			linksUm();
    	
    	
-   	while(vornFrei)){
+   	while(vornFrei()){
    		vor();
    			if(kornDa()){
    				nimm();
    		}
    	}
    		linksUm();
+   		
+   			while(vornFrei()){
+   				vor();
+   					if(kornDa()){
+   						nimm();
+   				}
+   			}
+   			
+   			
+   	linksUm();
+   	
+   			while(vornFrei()){
+   				vor();
+   					if(kornDa()){
+   						nimm();
+   					}
+   				}
+   				
+   				
+   				linksUm();
+   					vor();
+   				linksUm();
+   					vor();
+   					vor();
+   					linksUm();
+   					linksUm();
+   					linksUm();
+   					
+   					
+   			vor();
+   				gib();
+   				gib();
+   			
+   			vor();
+   				gib();
+   				gib();
+   			
+   			
+   			//zurueck zum Start
+   			
+   							linksUm();
+   						linksUm();
+   			
+   			vor();
+   			vor();
+   						
+   						linksUm();
+   						
+   			vor();
+   					
+  
+   						
+   	
    	
    	//fertig
    	
